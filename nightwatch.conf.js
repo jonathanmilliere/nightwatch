@@ -5,7 +5,7 @@ const firefox = require('geckodriver')
 module.exports = {
   src_folders: ['tests'],
   custom_commands_path: 'nw/commands',
-  //custom_assertions_path: ''
+  custom_assertions_path: 'nw/assertions',
   page_objects_path: ['nw/page-objects'],
   output_folder: 'tests-output/reports',
   globals_path: "nightwatch.globals.js",
