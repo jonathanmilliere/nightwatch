@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'larcado/nodejs-chrome' }
+        docker { dockerfile true }
     }
     stages {
         stage('Test') {
