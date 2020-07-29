@@ -7,7 +7,7 @@ pipeline {
             steps {
                 sh 'node --version'
                 sh 'npm install'
-                sh 'npm run test'
+                sh 'npm run test -- --env default'
             }
         }
     }
