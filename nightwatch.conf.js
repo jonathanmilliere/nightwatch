@@ -26,7 +26,7 @@ module.exports = {
         javascriptEnabled: true,
         acceptSslCerts: true,
         chromeOptions: {
-          args: ["--headless"]
+          args: ['--no-sandbox', '--headless', '--disable-gpu', '--remote-debugging-port=9222']
        }
       },
       screenshots: {
